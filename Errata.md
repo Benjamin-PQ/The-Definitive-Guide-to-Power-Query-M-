@@ -1,4 +1,10 @@
 ## Errata
+- Page 39, Currently: "The Csv.Document has two parameters passed to it, the first being the results of the File.Content function and the second being a record comprised of three key/value pairs."
+           Should be: "The Csv.Document **function** has two parameters passed to it, the first being the results of the **File.Contents** function and the second being a record comprised of **four** key/value pairs."
+
+- Page 61, Currently: "The Folder.Contents function returns a table consisting of a row for every folder and file within the specified folder path while File.Contents only returns rows for each file."
+           Should be: "The Folder.Contents function returns a table consisting of a row for every folder and file within the specified folder path while **Folder.Files** only returns rows for each file."
+
 - Number.NegativeInfinity: This returns a constant value that represents 1 divided by 0. should be Number.NegativeInfinity: This returns a constant value that represents -1 divided by 0. on Page 117.
 - Page 377 shows the custom function:  
 
